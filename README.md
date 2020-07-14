@@ -12,3 +12,5 @@ For object detection Yolo v3 has been used. The code for Yolo V3 has been taken 
 * [yolo.py](https://github.com/monjurulkarim/vehicle_distance/blob/master/yolo.py) : this file is for the detecting objects. Function detect_image has been modified to calculate the distance to the nearest car.
 * [yolo_video.py](https://github.com/monjurulkarim/vehicle_distance/blob/master/yolo_video.py): call this code to run the inference
 
+## How to run the detection code
+On your terminal at the same directory type: python yolo_video.py --image
