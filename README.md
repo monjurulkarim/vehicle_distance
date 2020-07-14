@@ -9,7 +9,6 @@ For object detection Yolo v3 has been used. The code for Yolo V3 has been taken 
 ## Getting Started
 * Install the required dependencies: (for reference see https://github.com/qqwweee/keras-yolo3 )
 * download the pre-trained weight from: 
-* [custom.py](https://github.com/monjurulkarim/Tracking_manufacturing/blob/master/custom.py) : this code is used for loading data and training the model
-* [Training.ipynb](https://github.com/monjurulkarim/Tracking_manufacturing/blob/master/Training.ipynb): loading the weight and calling the training function
-* [result_calculation.ipynb](https://github.com/monjurulkarim/Tracking_manufacturing/blob/master/result_calculation.ipynb): this code is used for detecting objects with or without temporal coherence. This also calculates precision, recall and f1-score of the model.
-* [mrcnn/visualize_frame_relation_4f.py](https://github.com/monjurulkarim/Tracking_manufacturing/blob/master/mrcnn/visualize_frame_relation_4f.py) : this code is used for visualizing the detected objects with mask.
+* [yolo.py](https://github.com/monjurulkarim/vehicle_distance/blob/master/yolo.py) : this file is for the detecting objects. Function detect_image has been modified to calculate the distance to the nearest car.
+* [yolo_video.py](https://github.com/monjurulkarim/vehicle_distance/blob/master/yolo_video.py): call this code to run the inference
+
