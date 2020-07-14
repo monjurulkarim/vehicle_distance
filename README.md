@@ -8,7 +8,7 @@ For object detection Yolo v3 has been used. The code for Yolo V3 has been taken 
 
 ## Getting Started
 * Install the required dependencies: (for reference see https://github.com/qqwweee/keras-yolo3 )
-* download the pre-trained weight from: 
+* download the pre-trained weight from: [download](https://drive.google.com/file/d/1BEfbOIdso_rVsQH8Tq_V-b1Kbt1bNK3S/view?usp=sharing)
 * [yolo.py](https://github.com/monjurulkarim/vehicle_distance/blob/master/yolo.py) : this file is for the detecting objects. Function detect_image has been modified to calculate the distance to the nearest car.
 * [yolo_video.py](https://github.com/monjurulkarim/vehicle_distance/blob/master/yolo_video.py): call this code to run the inference
 
