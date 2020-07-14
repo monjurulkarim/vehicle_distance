@@ -5,21 +5,10 @@ from timeit import default_timer as timer
 from yolo import YOLO, detect_video
 from PIL import Image
 
-test_dir = "C:/Users/mk5n2/yolo/trb/trb_test/"
-save_dir ="C:/Users/mk5n2/yolo/trb/trb_result/"
+test_dir = "Dir" # Here put your directory of images which needs to be detected
+save_dir ="C:/Users/mk5n2/yolo/trb/trb_result/" # Here put your directory where you want to save the images
 testfiles= os.listdir(test_dir)
-# def detect_img(yolo):
-#     while True:
-#         img = input('Input image filename:')
-#         try:
-#             image = Image.open(img)
-#         except:
-#             print('Open Error! Try again!')
-#             continue
-#         else:
-#             r_image = yolo.detect_image(image)
-#             r_image.show()
-#     yolo.close_session()
+
 def detect_img(yolo):
     start = timer()
     for i in range(len(testfiles)):
