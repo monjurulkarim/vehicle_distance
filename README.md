@@ -3,7 +3,7 @@ For developing advanced driving assistance systems (ADAS) it is required to dete
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/40798690/87365452-e42b3280-c53b-11ea-85ed-0bf9615ac5b3.gif)
 
-For object detection Yolo v3 has been used. The code for Yolo V3 has been taken from https://github.com/qqwweee/keras-yolo3. Then detection file has been modified to get the nearest vehicle and to get the perspective distance to that vehicle using the principle of similar triangles. The algorithm for distance estimation can be found in this <a href="https://arxiv.org/abs/2106.10319"> "paper"</a>.
+For object detection Yolo v3 has been used. The code for Yolo V3 has been taken from https://github.com/qqwweee/keras-yolo3. Then detection file has been modified to get the nearest vehicle and to get the perspective distance to that vehicle using the principle of similar triangles. The algorithm for distance estimation can be found in section 2.3 of this <a href="https://arxiv.org/abs/2106.10319"> paper</a>.
 
 
 ## Getting Started
