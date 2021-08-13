@@ -27,18 +27,6 @@ def detect_img(yolo):
     time_taken = end - start
     print("time taken : ", time_taken)
     yolo.close_session()
-    # while True:
-    #     for i in range(len(testfiles)):
-    #         img = os.path.join(test_dir,testfiles[i])
-    #         try:
-    #             image = Image.open(img)
-    #         except:
-    #             print('Open Error! Try again!')
-    #             continue
-    #         else:
-    #             r_image = yolo.detect_image(image)
-    #             r_image.show()
-    # yolo.close_session()
 
 
 
